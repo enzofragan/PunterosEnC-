@@ -22,6 +22,8 @@ int main()
 
     printf("%d\n",punteroNumero);
 
+    printf("%d\n",&punteroNumero);
+
    ///printf("%d",*punteroNumero);
 
     return 0;
