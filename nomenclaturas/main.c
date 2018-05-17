@@ -3,6 +3,9 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    ///punteros
+
+    int* punteroNumero;
+
     return 0;
 }
