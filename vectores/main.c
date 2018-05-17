@@ -12,7 +12,7 @@ int main()
     numeros[1]=99;
     numeros[2]=999;
     printf("\npuntero:%d",*(puntero-2));///mostrar array de numero sin for
-    printf("\npuntero:%d",*(puntero+1));
+    printf("\npuntero:%d",*(puntero+1));///* mostrar contenido de variable y ()posicion
     printf("\npuntero:%d",*(puntero+2));
     printf("\npuntero:%d",*(puntero+4));///si sobre sale del arrays y accede al auxiliar
     printf("\npuntero:%d",numeros);
