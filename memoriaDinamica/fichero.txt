@@ -1,0 +1,3 @@
+esto es un texto dentro del fichero
+esto es otro texto dentro del fichero.
+esto es otro archivo

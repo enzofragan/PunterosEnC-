@@ -9,7 +9,7 @@ int main()
     int vector[3];
     int* p;
 
-    if(cargarArrays(NULL,3))
+    if(cargarArrays(vector,3))
     {
         printf("carga exitosa");
     }
@@ -17,7 +17,7 @@ int main()
     {
         printf("error");
     }
-    ///mostrarArrays(vector,3);
+    mostrarArrays(vector,3);
 
     return 0;
 }
