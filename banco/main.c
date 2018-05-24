@@ -95,8 +95,9 @@ void archivoM(eMonedas* monedas, int tam)
     {
         for(i=0;i<tam;i++)
         {
-            fprintf(archivo,"%d\n",(monedas+i)->id);
-            //printf("%d",(monedas+i)->id);
+            fprintf(archivo,"%d ",(monedas+i)->id);
+            fprintf(archivo,(monedas+i)->pais);
+            fprintf(archivo," %s\n",(monedas+i)->descripcion);
         }
         fclose(archivo);
     }
